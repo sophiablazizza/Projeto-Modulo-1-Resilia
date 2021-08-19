@@ -8,7 +8,7 @@ function escolha() {
         }
         else if (caminho == 2) {
             alert ("Você é um herege da culinária. Game over.")
-            return location.href = "../index.html"
+            return location = ("../index.html")
         } 
         else {
             alert ('Escolha uma opção válida!')
