@@ -5,10 +5,10 @@ function escolha() {
 
         if (caminho == 1) {
             alert ("É BOLACHAAAAAAAAAAAAAAA. Game over.")
-            return location = ("/index.html")
+            return location.href = "/index.html"
         }
         else if (caminho == 2) {
-            return location =("../personagem2-otaku/fase2.html")
+            return location.href = "/personagem2-otaku/fase2.html"
         } 
         else {
             alert ('Escolha uma opção válida!')

@@ -5,10 +5,10 @@ function escolha() {
 
         if (caminho == 1) {
             alert ("Você passará a eternidade no limbo e ainda assim não será o suficente para conseguir maratonar todos os filmes. Game over.")
-            return location = ("/index.html")
+            return location.href = "/index.html"
         }
         else if (caminho == 2) {
-            return location =("../personagem2-otaku/fase4.html")
+            return location.href = "/personagem2-otaku/fase4.html"
         } 
         else {
             alert ('Escolha uma opção válida!')

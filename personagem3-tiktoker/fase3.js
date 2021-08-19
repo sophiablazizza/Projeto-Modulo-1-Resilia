@@ -5,10 +5,10 @@ function escolha() {
 
         if (caminho == 1) {
             alert ("3 colheradas pro leite ainda continuar branco? Isso é um absurdo! Game Over.")
-            return location = ("/index.html")
+            return location.href = "/index.html"
         }
         else if (caminho == 2) {
-            return location = ("../personagem3-tiktoker/fase4.html")
+            return location.href = "/personagem3-tiktoker/fase4.html"
         } 
         else {
             alert ('Escolha uma opção válida!')
