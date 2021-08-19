@@ -5,7 +5,7 @@ function escolha () {
 
         if (caminho == 1) {
             alert ("Não precisamos de almas revoltadas! GAME OVER.")
-            return location.href = "./index.html"
+            return location.href = "../index.html"
         }
         else if (caminho == 2) {
             return location.href = "./fase3mcr.html"
