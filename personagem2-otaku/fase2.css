@@ -1,0 +1,32 @@
+.imagem-fundo {
+    background-image: url("../Imagens/limbo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 100vh;
+    position:relative;
+}
+
+.elemento {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container img {
+    max-width:400px;
+    max-height:300px;
+}
+
+footer { 
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin-bottom: 15px;
+    text-align: center;
+}
