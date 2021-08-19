@@ -5,7 +5,7 @@ function escolha() {
 
         if (caminho == 1) {
             alert ("Você passará a eternidade no limbo e ainda assim não será o suficente para conseguir maratonar todos os filmes. Game over.")
-            return location.href = "./index.html"
+            return location.href = "../index.html"
         }
         else if (caminho == 2) {
             return location.href = "./fase4.html"

@@ -12,7 +12,7 @@ function escolha() {
         }
         else {
                 alert("Saber como controlar a raiva é uma das virtudes que buscamos. Você não serve! Game Over.")
-                return location.href = "./index.html"
+                return location.href = "../index.html"
         }
 
 }

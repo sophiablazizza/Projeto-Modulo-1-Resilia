@@ -5,7 +5,7 @@ function escolha () {
 
         if (caminho == 1) {
             alert ("Não temos paciência para historinhas do tipo Marley e Eu e nem Sempre ao Seu Lado. GAME OVER.")
-            return location.href = "./index.html"
+            return location.href = "../index.html"
         }
         else if (caminho == 2) {
             return location.href = "./fase4mcr.win.html"

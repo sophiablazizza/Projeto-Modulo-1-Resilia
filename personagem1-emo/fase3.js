@@ -8,7 +8,7 @@ function escolha () {
         }
         else if (caminho == 2) {
             alert ("O FEIJÃO É POR CIMAAAAAAAAAA. Game over.")
-            return location.href = "./index.html"
+            return location.href = "../index.html"
             
         }
         else {

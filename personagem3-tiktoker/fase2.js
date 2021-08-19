@@ -8,7 +8,7 @@ function escolha() {
         }
         else if (caminho == 2) {
             alert ("Sem tempo para how you doing, irmão. Game Over.")
-            return location.href = "./index.html"
+            return location.href = "../index.html"
         } 
         else {
             alert ('Escolha uma opção válida!')

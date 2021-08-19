@@ -5,7 +5,7 @@ function escolha() {
 
         if (caminho == 1) {
             alert ("3 colheradas pro leite ainda continuar branco? Isso é um absurdo! Game Over.")
-            return location.href = "./index.html"
+            return location.href = "../index.html"
         }
         else if (caminho == 2) {
             return location.href = "./fase4.html"
